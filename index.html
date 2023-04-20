@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./style.css" />
+
+        <title>Test_Voichuk_Serhii</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="burger__menu" id="burger__menu">
+                    <span class="burger__line"></span>
+                </div>
+                <img
+                    src="./img/brain.png"
+                    alt="brain"
+                    class="header__img display-none"
+                />
+                <p class="header__title display-none">тест на определение IQ</p>
+            </div>
+            <nav class="menu display-none" id="menu">
+                <a href="#home" class="menu__link">Главная</a>
+                <a href="#about" class="menu__link">Информация о тесте</a>
+                <a href="#footer" class="menu__link">пройти тест</a>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="home" id="home">
+                <div class="wrapper">
+                    <section class="testing js-testing display-none">
+                        <div class="testig__progresbar">
+                            <div class="testig__progres"></div>
+                        </div>
+                        <div class="tecting__content">
+                            <h2 class="testing__question" id="question">
+                                %quesion%
+                            </h2>
+                            <img
+                                src=""
+                                alt="img-question"
+                                class="testing__img display-none"
+                            />
+                            <ul class="testing__list" id="list">
+                                <li class="testing__item">
+                                    <label>
+                                        <input
+                                            value="%number%"
+                                            type="radio"
+                                            class="answer"
+                                            name="answer"
+                                        />
+                                        <span>%answer%</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <a
+                            href="#"
+                            class="testing__link js-testing-button"
+                            id="submit"
+                        >
+                            <div class="testing__button">далее</div></a
+                        >
+                    </section>
+                    <div class="home__block js-show">
+                        <div class="home__first">
+                            <h3 class="home__upertitle">
+                                Пройдите точный и быстрый
+                            </h3>
+                            <h1 class="home__title">тест на определение IQ</h1>
+                        </div>
+                        <div class="home__second">
+                            <img
+                                src="./img/brain.png"
+                                alt="brain"
+                                class="home__img"
+                            />
+                        </div>
+                        <div class="home__third">
+                            <a href="#" class="home__link js-button"
+                                ><div class="home__button">пРойти тест</div></a
+                            >
+                            <h3 class="home__subtitle">
+                                И получите рекомендации по развитию своего
+                                интеллекта
+                                <br />
+                                <span class="home__text"
+                                    >и улучшению финансового благосостояния и
+                                    личной жизни</span
+                                >
+                            </h3>
+                            <a href="#info" class="home__arrow">
+                                <img
+                                    src="./img/home_arrow.png"
+                                    alt="home_arrow"
+                                />
+                            </a>
+                            <a href="#info" class="home__subarrow">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="info js-show" id="info">
+                <div class="wrapper">
+                    <div class="info__block">
+                        <h2 class="info__title">
+                            Профессиональный IQ-тест позволяет не только
+                            определить коэффициент вашего интеллекта, но и
+                            выработать список рекомендаций для повышения этого
+                            показателя.
+                        </h2>
+                    </div>
+                </div>
+            </section>
+            <section class="about js-show" id="about">
+                <div class="wrapper">
+                    <div class="about__block">
+                        <h3 class="about__title">
+                            Также по результатам теста
+                            <b
+                                ><span class="about__title-UP"
+                                    >вы получите</span
+                                ></b
+                            >
+                            подробные
+                            <b><span class="about__title-UP">советы</span></b>
+                            по определению наиболее перспективной
+                            <b
+                                ><span class="about__title-UP"
+                                    >для вашего типа</span
+                                >
+                                интеллекта
+                                <span class="about__title-UP"
+                                    >сферы деятельности,</span
+                                ></b
+                            >
+                            которая принесет вам скорейший финансовый результат.
+                        </h3>
+                        <img
+                            src="./img/about_img.png"
+                            alt="about_img"
+                            class="about__img"
+                        />
+                        <a href="#" class="about__link js-button"
+                            ><div class="about__button">пРойти тест</div></a
+                        >
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer js-show" id="footer">
+            <div class="wrapper">
+                <div class="footer__block">
+                    <h3 class="footer__title">
+                        Прохождение теста займет у вас не более
+                        <span class="footer__title-Yelow"><b>12 минут</b></span
+                        >, а его результаты вы сможете
+                        <span class="footer__title-Yelow"
+                            ><b>использовать всю жизнь.</b></span
+                        >
+                    </h3>
+                    <div class="footer__content-box">
+                        <h3 class="footer__content">
+                            Профессиональная интерпретация и детально
+                            <b>проработанные рекомендации</b> позволят вам
+                            качественно
+                            <b>изменить все аспекты своей жизни:</b> от
+                            финансового до любовного.
+                        </h3>
+                    </div>
+                    <a href="#" class="footer__link js-button">
+                        <div class="footer__button">пРойти тест</div></a
+                    >
+                    <div class="footer__decription">
+                        <img
+                            src="./img/footer_img.png"
+                            alt="footer_img"
+                            class="footer__img"
+                        />
+                        <span class="footer__text">2019</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/script.js" type="module"></script>
+    </body>
+</html>
