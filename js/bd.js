@@ -51,7 +51,7 @@ export default [
     {
         question: "Выберите правильную фигуру из четырёх пронумерованных",
         answers: ["1", "2", "3", "4"],
-        img: "./img/img_index8.jpeg",
+        img: "img/img_index8.jpeg",
     },
     {
         question: "Вам привычнее и важнее:",
@@ -69,11 +69,11 @@ export default [
             "оно устойчиво",
             "оно-находится в состоянии равновесия",
         ],
-        img: "./img/img_index10.jpeg",
+        img: "img/img_index10.jpeg",
     },
     {
         question: "Вставьте подходящее число",
         answers: ["34", "36", "53", "44", "66", "42"],
-        img: "./img/img_index11.jpeg",
+        img: "img/img_index11.jpeg",
     },
 ];

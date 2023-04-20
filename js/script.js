@@ -297,7 +297,7 @@ function loader() {
 
     createImg.classList.remove("display-none");
     createImg.classList.add("animation-loader");
-    createImg.setAttribute("src", "../img/loader.png");
+    createImg.setAttribute("src", "img/loader.png");
 
     const answersTemplate = `<h2 class="title">
     Определение стиля мышления........................
@@ -338,7 +338,7 @@ function showResult() {
             минут
         </span>
         <div class="result__call">
-            <img class="result__call-tell" src="../img/call.png" alt="tel">
+            <img class="result__call-tell" src="img/call.png" alt="tel">
             <span class="result__call-text">
                 Позвонить и прослушать результат
             </span>
